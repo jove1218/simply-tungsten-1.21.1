@@ -3,8 +3,6 @@ package net.jove1218.simplytungsten.item;
 import com.google.common.base.Suppliers;
 import net.jove1218.simplytungsten.util.ModTags;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.TagKey;
@@ -22,7 +20,7 @@ public enum ModToolMaterials implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    private ModToolMaterials(
+    ModToolMaterials(
             final TagKey<Block> inverseTag,
             final int itemDurability,
             final float miningSpeed,
@@ -65,6 +63,6 @@ public enum ModToolMaterials implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return (Ingredient)this.repairIngredient.get();
+        return this.repairIngredient.get();
     }
 }
