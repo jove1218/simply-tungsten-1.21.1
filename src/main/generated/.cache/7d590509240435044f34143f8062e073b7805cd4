@@ -1,1 +1,11 @@
-// 1.21.1	2025-01-19T15:42:03.4720313	Simply Tungsten/Tags for minecraft:item
+// 1.21.1	2025-01-19T17:43:17.0259524	Simply Tungsten/Tags for minecraft:item
+7852eab63f239b3d025c40fecfc68f6c88e0f52d data\minecraft\tags\item\axes.json
+82e24c961cb89ecc599e61cf3f5cb017f49755eb data\minecraft\tags\item\chest_armor.json
+3df02d5e13806f7f4f0a1e9c9c0a025a1271aee4 data\minecraft\tags\item\hoes.json
+c65295903921ec417ef628bddeb0f7ec8d01ec24 data\minecraft\tags\item\shovels.json
+4d19b1f492a4579de56d29c4d7f52e85c7dbbf7e data\minecraft\tags\item\foot_armor.json
+c08cd4d3167b29ff82888b4841eee32a37121bd9 data\minecraft\tags\item\trimmable_armor.json
+2b0a7c89a51ab46b14a803261f46c0f4ed7ce9db data\minecraft\tags\item\leg_armor.json
+daa0e824386ed19f353fb6e5d9a1c7eca6021ef0 data\minecraft\tags\item\swords.json
+5e1900b9cd044dd0151d8368f6ab521727bb7ec4 data\minecraft\tags\item\pickaxes.json
+e885468f77e65fdde07fd19ff1cf540c88548402 data\minecraft\tags\item\head_armor.json

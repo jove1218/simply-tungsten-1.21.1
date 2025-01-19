@@ -2,6 +2,17 @@
   "item.simplytungsten.tungsten_ingot": "Tungsten Ingot",
   "item.simplytungsten.raw_tungsten": "Raw Tungsten",
 
+  "item.simplytungsten.tungsten_sword": "Tungsten Sword",
+  "item.simplytungsten.tungsten_pickaxe": "Tungsten Pickaxe",
+  "item.simplytungsten.tungsten_shovel": "Tungsten Shovel",
+  "item.simplytungsten.tungsten_axe": "Tungsten Axe",
+  "item.simplytungsten.tungsten_hoe": "Tungsten Hoe",
+
+  "item.simplytungsten.tungsten_helmet": "Tungsten Helmet",
+  "item.simplytungsten.tungsten_chestplate": "Tungsten Chestplate",
+  "item.simplytungsten.tungsten_leggings": "Tungsten Leggings",
+  "item.simplytungsten.tungsten_boots": "Tungsten Boots",
+
   "block.simplytungsten.tungsten_block": "Block of Tungsten",
   "block.simplytungsten.tungsten_ore": "Tungsten Ore",
   "block.simplytungsten.deepslate_tungsten_ore": "Deepslate Tungsten Ore",

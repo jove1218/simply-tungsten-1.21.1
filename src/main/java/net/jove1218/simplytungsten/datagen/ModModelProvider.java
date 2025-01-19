@@ -7,6 +7,7 @@ import net.jove1218.simplytungsten.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -24,5 +25,16 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.TUNGSTEN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_TUNGSTEN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.TUNGSTEN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TUNGSTEN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TUNGSTEN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TUNGSTEN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TUNGSTEN_BOOTS));
     }
 }

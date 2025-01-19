@@ -20,6 +20,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TUNGSTEN_BLOCK);
                         entries.add(ModBlocks.TUNGSTEN_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
+
+                        entries.add(ModItems.TUNGSTEN_SWORD);
+                        entries.add(ModItems.TUNGSTEN_PICKAXE);
+                        entries.add(ModItems.TUNGSTEN_SHOVEL);
+                        entries.add(ModItems.TUNGSTEN_AXE);
+                        entries.add(ModItems.TUNGSTEN_HOE);
+
+                        entries.add(ModItems.TUNGSTEN_HELMET);
+                        entries.add(ModItems.TUNGSTEN_CHESTPLATE);
+                        entries.add(ModItems.TUNGSTEN_LEGGINGS);
+                        entries.add(ModItems.TUNGSTEN_BOOTS);
                     }).build());
 
     public static void registerItemGroups() {
