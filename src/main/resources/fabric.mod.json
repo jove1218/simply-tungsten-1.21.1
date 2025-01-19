@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "simplytungsten",
+	"version": "${version}",
+	"name": "Simply Tungsten",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Jove1218"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/simplytungsten/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jove1218.simplytungsten.SimplyTungsten"
+		],
+		"fabric-datagen": [
+			"net.jove1218.simplytungsten.SimplyTungstenDataGenerator"
+		],
+		"client": [
+			"net.jove1218.simplytungsten.SimplyTungstenClient"
+		]
+	},
+	"mixins": [
+		"simplytungsten.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
