@@ -2,6 +2,7 @@ package net.jove1218.simplytungsten;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jove1218.simplytungsten.block.ModBlocks;
 import net.jove1218.simplytungsten.item.ModItemGroups;
 import net.jove1218.simplytungsten.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class SimplyTungsten implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

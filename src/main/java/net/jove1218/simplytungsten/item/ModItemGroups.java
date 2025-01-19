@@ -2,6 +2,7 @@ package net.jove1218.simplytungsten.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.jove1218.simplytungsten.SimplyTungsten;
+import net.jove1218.simplytungsten.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -16,6 +17,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.TUNGSTEN_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_TUNGSTEN);
                         entries.add(ModItems.TUNGSTEN_INGOT);
+                        entries.add(ModBlocks.TUNGSTEN_BLOCK);
+                        entries.add(ModBlocks.TUNGSTEN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
                     }).build());
 
     public static void registerItemGroups() {

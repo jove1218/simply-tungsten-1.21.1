@@ -2,5 +2,9 @@
   "item.simplytungsten.tungsten_ingot": "Tungsten Ingot",
   "item.simplytungsten.raw_tungsten": "Raw Tungsten",
 
+  "block.simplytungsten.tungsten_block": "Block of Tungsten",
+  "block.simplytungsten.tungsten_ore": "Tungsten Ore",
+  "block.simplytungsten.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+
   "itemgroup.simply_tungsten": "Simply Tungsten"
 }
